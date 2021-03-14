@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(195, 246, 255);
+    text-align: center;  
+}
+
+header {
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    padding: 20px;
+}
+
+header p {
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    padding: 20px;
+
+}
+
+table {
+    margin: 1rem auto;
+    border: 2px solid darkslategray;
+    width: 700px;
+}
+
+thead {
+    background-color:rgba(35, 86, 95, 0.692);
+}
+
+th {
+    padding: 0.2rem 0.5rem;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+}
+
+td {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0.4rem;
+    background-color: rgba(35, 86, 95, 0.281);
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+    border-radius: 15%;
+    padding: 0.2rem;
+}
+
